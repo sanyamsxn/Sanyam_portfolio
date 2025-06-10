@@ -21,8 +21,16 @@ const techIcons = {
   Tailwind: <SiTailwindcss className="text-cyan-400" />,
 }
 
+interface Project {
+  id: number;
+  title: string;
+  technologies: string[];
+  image: string;
+  link: string;
+  content: string;
+}
 // Project data
-const projects = [
+const projects: Project[] = [
   {
     id: 1,
     title: "AcademiHub",
@@ -67,14 +75,14 @@ export default function ProjectsPage() {
     </div>
   )
 }
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 
-function ProjectCard({ project }: { project: any }) {
+
+function ProjectCard({ project }: { project: Project }) {
   const [isHovering, setIsHovering] = useState(false)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
-  const cardRef = useRef(null)
+  const cardRef = useRef<HTMLDivElement>(null)
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return
 
     const rect = cardRef.current.getBoundingClientRect()
@@ -102,7 +110,7 @@ function ProjectCard({ project }: { project: any }) {
       <div className="flex gap-3 justify-center ">
         {project.technologies.map((tech, index) => (
           <span key={index} className={ "tech"}>
-            {techIcons[tech] || tech}
+            {techIcons[tech as keyof typeof techIcons] || tech}
           </span>
         ))}
       </div>
