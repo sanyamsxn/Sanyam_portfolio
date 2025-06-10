@@ -43,48 +43,54 @@ export default function Test() {
         <div className="marquee-container">
             <div className="marquee-content">
                 {/* <!-- First set --> */}
-                <div className="tech-item node">NODE</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item mongodb">MONGODB</div>
-                
-                {/* <!-- Second set (duplicate) --> */}
-                <div className="tech-item node">NODE</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item mongodb">MONGODB</div>
-                
-                {/* <!-- Third set (duplicate) --> */}
-                <div className="tech-item node">NODE</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item mongodb">MONGODB</div>
-                
-                {/* <!-- Fourth set (duplicate) --> */}
-                <div className="tech-item node">NODE</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item mongodb">MONGODB</div>
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+              
             </div>
         </div>
 {/* 
@@ -92,48 +98,53 @@ export default function Test() {
         <div className="marquee-container-reverse">
             <div className="marquee-content-reverse">
                 {/* <!-- First set (different order) --> */}
-                <div className="tech-item mongodb">MONGODB</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item node">NODE</div>
-                
-                {/* <!-- Second set (duplicate, different order) --> */}
-                <div className="tech-item mongodb">MONGODB</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item node">NODE</div>
-                
-                {/* <!-- Third set (duplicate, different order) --> */}
-                <div className="tech-item mongodb">MONGODB</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item node">NODE</div>
-                
-                {/* <!-- Fourth set (duplicate, different order) --> */}
-                <div className="tech-item mongodb">MONGODB</div>
-                <div className="tech-item js">JS</div>
-                <div className="tech-item cpp">C++</div>
-                <div className="tech-item git">GIT</div>
-                <div className="tech-item nextjs">NEXTJS</div>
-                <div className="tech-item postgres">POSTGRES</div>
-                <div className="tech-item angular">ANGULAR</div>
-                <div className="tech-item reactjs">REACTJS</div>
-                <div className="tech-item node">NODE</div>
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item git"><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item git "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item git "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
+
+                <div className="tech-item "><img src="icons/c.png"/></div>
+                <div className="tech-item "><img src="icons/angular.png"/></div>
+                <div className="tech-item "><img src="icons/css.png"/></div>
+                <div className="tech-item "><img src="icons/git.png"/></div>
+                <div className="tech-item git "><img src="icons/github.png"/></div>
+                <div className="tech-item "><img src="icons/html.png"/></div>
+                <div className="tech-item "><img src="icons/js.png"/></div>
+                <div className="tech-item "><img src="icons/nextjs.png"/></div>
+                <div className="tech-item "><img src="icons/node.png"/></div>
+                <div className="tech-item "><img src="icons/postgres.png"/></div>
+                <div className="tech-item "><img src="icons/react.png"/></div>
             </div>
         </div>
     </div>
