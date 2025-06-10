@@ -21,7 +21,7 @@ export default function Test() {
         </div>
 
         <div className="item" style={{ ["--position"]: "5" } as React.CSSProperties & { [key: string]: string | number }}>
-          <img src="certificates/mern_Lco.JPG" alt='cer1'/>
+          <img src="certificates/MERN_LCO.JPG" alt='cer1'/>
         </div>
 
         <div className="item" style={{ ["--position"]: "6" } as React.CSSProperties & { [key: string]: string | number }}>
@@ -36,11 +36,11 @@ export default function Test() {
           <img src="certificates/DSA_c_c++.jpg" alt='cer1'/>
         </div>
 
-        <div className="item" style={{ ["--position"]: "8" } as React.CSSProperties & { [key: string]: string | number }}>
+        <div className="item" style={{ ["--position"]: "9" } as React.CSSProperties & { [key: string]: string | number }}>
           <img src="certificates/Sql_postgres.jpg" alt='cer1'/>
         </div>
 
-        <div className="item" style={{ ["--position"]: "8" } as React.CSSProperties & { [key: string]: string | number }}>
+        <div className="item" style={{ ["--position"]: "10" } as React.CSSProperties & { [key: string]: string | number }}>
           <img src="certificates/Web_development_coursera.jpg" alt='cer1'/>
         </div>
       </div>

@@ -1,7 +1,7 @@
 
 
 #mainCer{
-    margin-top: 5vh;
+    margin-top: 150px;
     height: 70vh;
     width: 100%;
     background: linear-gradient(90deg, #000000, #000000b4);
@@ -19,7 +19,7 @@
     left: calc(50% - 210px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    animation: autoRun 30s linear infinite;
+    animation: autoRun 33s linear infinite;
     z-index: 2;
 }
 @keyframes autoRun{
@@ -36,7 +36,7 @@
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(620px);
-    width: 400px;
+    width: 380px;
     
 }
 
