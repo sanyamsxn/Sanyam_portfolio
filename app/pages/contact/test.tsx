@@ -3,7 +3,7 @@ import './test.css';
 export default function Test() {
   return <>
     <div id='mainCer'> 
-      <div id='slider' style={{ ["--quantity"]: "8" } as React.CSSProperties & { [key: string]: string | number }} >
+      <div id='slider' style={{ ["--quantity"]: "10" } as React.CSSProperties & { [key: string]: string | number }} >
         <div className="item" style={{ ["--position"]: "1" } as React.CSSProperties & { [key: string]: string | number }}>
           <img src="certificates/AlgoExpert.png" alt='cer1'/>
         </div>
@@ -21,7 +21,7 @@ export default function Test() {
         </div>
 
         <div className="item" style={{ ["--position"]: "5" } as React.CSSProperties & { [key: string]: string | number }}>
-          <img src="certificates/MERN_LCO.jpg" alt='cer1'/>
+          <img src="certificates/mern_Lco.JPG" alt='cer1'/>
         </div>
 
         <div className="item" style={{ ["--position"]: "6" } as React.CSSProperties & { [key: string]: string | number }}>
