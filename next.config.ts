@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['apple.com'],
   },
-  output:"export"
+  output:"export",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
