@@ -1,0 +1,27 @@
+#contactHeading{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    background: linear-gradient(90deg, #ff44ae, #ff07bd, #d400ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  #iphone{
+    border-radius: 100px;
+  }
+
+  #contactHeading p{
+    -webkit-text-fill-color: #fefefe;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  }
+
+
+@media (min-width:1201px ) and (max-width:1400px){
+  #contactHeading{
+    font-size: 8rem;
+  }
+}
