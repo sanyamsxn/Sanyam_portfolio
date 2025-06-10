@@ -67,6 +67,7 @@ export default function ProjectsPage() {
     </div>
   )
 }
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 
 function ProjectCard({ project }: { project: any }) {
   const [isHovering, setIsHovering] = useState(false)
