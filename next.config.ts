@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
     domains: ['apple.com'],
   },
   output:"export",
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
 };
 
 export default nextConfig;

@@ -56,7 +56,7 @@ export default function ProjectsPage() {
         <h1  className="headingP text-6xl mt-10 md:text-8xl font-bold text-center bg-gradient-to-r from-purple-400 via-pink-600 to-purple-800 bg-clip-text text-transparent">
           Projects
         </h1>
-        <p className="headingPg text-xl md:text-2xl text-gray-300  text-center">The tech projects I've created</p>
+        <p className="headingPg text-xl md:text-2xl text-gray-300  text-center">The tech projects I&apos;ve created</p>
 
         <div className="flex flex-col gap-16 w-full w-[100%] items-center">
           {projects.map((project) => (
