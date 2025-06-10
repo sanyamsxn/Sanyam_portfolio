@@ -27,24 +27,24 @@ const projects = [
     id: 1,
     title: "AcademiHub",
     technologies: ["Angular", "Node", "MongoDb", "Express", "Three.js"],
-    image: "/academicHub.png",
-    link: "/projects/book-library",
+    image: "./academicHub.png",
+    link: "./projects/book-library",
     content: "AcademiHub is a web platform for students to share and access study materials. I designed and developed the user dashboard with dynamic file listing and filter features.Implemented secure file upload, organized resource categories, and the authentication part. Focused on creating a user-friendly, efficient space for academic collaboration."
   },
   {
     id: 2,
     title: "Portfolio",
     technologies: ["HTML", "CSS", "JS"],
-    image: "/rishabhPort.png",
-    link: "/projects/ecommerce",
+    image: "./rishabhPort.png",
+    link: "./projects/ecommerce",
     content : "Developed a personal portfolio website for my client, Rishabh, utilizing HTML, CSS, JavaScript, Bootstrap, and various third-party libraries. The portfolio showcases his skills, projects, and contact details with a responsive and modern design, ensuring seamless performance across all devices. Integrated animations and interactive elements to enhance user engagement and deliver a visually appealing, professional online presence."
   },
   {
     id: 3,
     title: "DishItOut",
     technologies: ["TypeScript", "NextJs"],
-    image: "/placeholder.svg?height=300&width=500",
-    link: "/projects/weather",
+    image: "./placeholder.svg?height=300&width=500",
+    link: "./projects/weather",
     content: "DishItOut is your go-to platform for sharing and discovering online recipes. Built with Next.js, it offers a fast, seamless experience for food lovers. Join a vibrant community of home cooks and culinary enthusiasts. Share your favorite dishes, explore new flavors, and connect with fellow foodies!"
   },
 ]
@@ -68,7 +68,7 @@ export default function ProjectsPage() {
   )
 }
 
-function ProjectCard({ project }) {
+function ProjectCard({ project }: { project: any }) {
   const [isHovering, setIsHovering] = useState(false)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const cardRef = useRef(null)
