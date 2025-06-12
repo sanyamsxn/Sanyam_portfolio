@@ -1,8 +1,16 @@
 'use client'
+import toast from 'react-hot-toast';
+import {  useRef } from 'react';
 import './contact.css'
 
 
 export default function Work(){
+const formRef = useRef<HTMLFormElement>(null);
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    toast.success('Message sent!');
+    formRef.current?.reset();
+  };
     return <>
 
         <div id="mainW">
@@ -13,7 +21,7 @@ export default function Work(){
                 <p>I am listening, and I&apos;d love to hear about your ideas. Let&apos;s bring your vision to life.</p>
                 <h2 id='sBottom'>LEAVE THE REST TO ME!</h2>
             </div>
-            <form id='wForm'>
+            <form id='wForm' onSubmit={handleSubmit} ref={formRef}>
                 <h1 id='wHead'>Let&apos;s Talk</h1>
                 <input type='text' placeholder='Name' className='i'/>
                 <input type='email' placeholder='Email Address' className='i'/>
