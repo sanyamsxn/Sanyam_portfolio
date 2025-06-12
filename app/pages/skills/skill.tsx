@@ -1,6 +1,6 @@
 "use client";
-import './test.css';
-export default function Test() {
+import './skill.css';
+export default function Skill() {
   return <>
     <div id='mainCer'> 
       <div id='slider' style={{ ["--quantity"]: "10" } as React.CSSProperties & { [key: string]: string | number }} >

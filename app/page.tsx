@@ -1,12 +1,12 @@
 "use client"
 
-import Work from "./pages/work/work"
+import Work from "./pages/contact/contact"
 
 import { useEffect, useState } from "react"
 import Landing from "./pages/landing/landing"
-import Contact from "./pages/contact/contact"
-import Skill from "./pages/skills/skills"
-import Test from "./pages/contact/test"
+import Contact from "./pages/Link/link"
+import ProjectsPage from "./pages/project/project"
+import Skill from "./pages/skills/skill"
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0)
@@ -24,8 +24,8 @@ export default function Home() {
     <div className="bg-black relative overflow-hidden" >
     <section  id="home"><Landing /></section> 
 <section  id="contt"><Contact scrollY={scrollY} /></section>
-<section  id="projects"><Skill /></section>
-<section  id="skills"><Test /></section>
+<section  id="projects"><ProjectsPage /></section>
+<section  id="skills"><Skill /></section>
 <section  id="work"><Work /></section>
 
 

@@ -1,10 +1,10 @@
 .headingP{
-  margin-top: 80px;
+  margin-top: 50px;
+  height: 180px;
 }
 
 .headingPg{
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .tech{
@@ -18,10 +18,15 @@
   margin-top:20px;
   width: 85%;
   margin-left: 10px;
+  font-family: "Hurricane", cursive;
 }
 
 .title{
   font-size: 2.8rem !important;
+    font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .project{

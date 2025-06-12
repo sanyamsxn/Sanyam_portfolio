@@ -4,7 +4,7 @@ import { useState, useRef } from "react"
 import { ArrowUpRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import "./skills.css"
+import "./project.css"
 import { SiAngular, SiNodedotjs, SiMongodb, SiExpress, SiThreedotjs, SiHtml5, SiCss3, SiJavascript, SiNextdotjs, SiTypescript, SiTailwindcss } from "react-icons/si"
 
 const techIcons = {
@@ -59,7 +59,7 @@ const projects: Project[] = [
 
 export default function ProjectsPage() {
   return (
-    <div className="h-[170vh] project text-white p-8 md:p-16 w-full">
+    <div className="h-[1200px] project text-white p-8 md:p-16 w-full">
       <div className="w-full flex flex-col items-center">
         <h1  className="headingP text-6xl mt-10 md:text-8xl font-bold text-center bg-gradient-to-r from-purple-400 via-pink-600 to-purple-800 bg-clip-text text-transparent">
           Projects

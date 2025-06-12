@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Heart, HeartFilled } from 'lucide-react';
+import "./like.css"
 
 export default function Like(){
 
@@ -38,9 +39,9 @@ export default function Like(){
 
     return (
         <div className="flex flex-row items-center gap-2 mt-4">
-      <button onClick={handleLike} className="transition duration-300">
+      <button id ="like" onClick={handleLike} className="transition duration-300">
         {liked ? (
-          <Heart className="h-8 w-8 text-pink-500 fill-pink-500" />
+          <Heart  className="h-8 w-8 text-pink-500 fill-pink-500" />
         ) : (
           <Heart className="h-8 w-8 text-gray-400" />
         )}
