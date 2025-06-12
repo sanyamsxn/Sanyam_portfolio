@@ -73,15 +73,17 @@
     color: white;
     margin-bottom: 320px;
     margin-left: 30%;
+    word-spacing: 1px;
   }
   #bio h3{
     color: rgb(255, 247, 200);
     font-size: 2.5rem;
     text-align: center;
       font-family: "Playfair Display", serif;
+      text-shadow: 0 13.36px 8.896px #bbbaba,0 -2px 1px #fff;
   }
   #bio p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: "Savate", sans-serif;
   }
 
@@ -101,7 +103,7 @@ header nav span{
     justify-content: flex-end;
     align-items: center;
     box-shadow: 0 1px 1px rgba(90, 90, 90, 0.712);
-    height: 60px;
+    height: 50px;
     z-index: 999;
   }
   

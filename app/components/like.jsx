@@ -46,10 +46,10 @@ export default function Like(){
           <Heart className="h-8 w-8 text-gray-400" />
         )}
       </button>
-      <p className="text-xl text-gray-300">
-        {liked ? ' ' : 'Love this? React!'}
+      <p className="text-sm text-gray-300">
+        {liked ? ' ' : 'Drop a React if you vibe!'}
       </p>
-      <p className="text-xl text-gray-400"> Loved By: {likes}</p>
+      <p className="text-xl text-gray-400"> | Loved By: {likes}</p>
     </div>
     )
 }
